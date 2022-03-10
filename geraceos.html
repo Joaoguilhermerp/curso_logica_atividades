@@ -1,0 +1,23 @@
+<meta charset="UTF8">
+
+<script>
+
+function pulaLinha()
+{
+	document.write("<br>")
+}
+
+function mostra (anos)
+{
+	document.write(anos);
+	pulaLinha();
+}
+ 
+var anoInicio = 1500;
+var anoFinal = 2022;
+var media = 28;
+var tempoDescoberta = (anoFinal - anoInicio);
+
+mostra("Fazem " + tempoDescoberta + " anos da colonização do pais, e aproximadamente " + Math.round(tempoDescoberta/media) + " gerações" );
+
+</script>
